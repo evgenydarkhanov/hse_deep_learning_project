@@ -17,3 +17,7 @@
 - `hybrid_retrieve_v_1.3.ipynb`
 
 Объединение результатов работы поисковиков модернизировано: `scores_merging_weighted_sum` и `scores_merging_unique_id` объединены в функцию `scores_merging`. Добавлена нижняя граница релевантности `threshold`, если скор меньше `threshold`, то индекс не попадает в выдачу
+
+- `hybrid_retrieve_v_1.4.ipynb`
+
+Эмбеддер ~`rubert_tiny2`~ от Давида Дале заменён на `rubert_base` от ai-forever
