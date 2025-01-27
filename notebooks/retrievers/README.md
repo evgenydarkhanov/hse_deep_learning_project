@@ -21,3 +21,9 @@
 - `hybrid_retrieve_v_1.4.ipynb`
 
 Эмбеддер ~`rubert_tiny2`~ от Давида Дале заменён на `rubert_base` от ai-forever
+
+- `hybrid_retrieve_v_1.5.ipynb`
+
+- эмбеддер заменён на `USER_bge_m3` от vkdeep
+- при `pooling=True` возвращаются `[(DataFrame index, (score,)), ...]`
+- при `pooling=False` возвращаются `[(КОД УСЛУГИ, (score, DataFrame index)), ...]`
