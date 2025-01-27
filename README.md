@@ -5,6 +5,7 @@
 
 Структура директорий:
 
+```
 deep_learning_project/
 │
 ├── dev_dir/
@@ -38,3 +39,4 @@ deep_learning_project/
 │
 ├── README.md
 └── .gitignore
+```
