@@ -27,3 +27,8 @@
     - эмбеддер заменён на `USER_bge_m3` от vkdeep
     - при `pooling=True` возвращаются `[(DataFrame index, (score,)), ...]`
     - при `pooling=False` возвращаются `[(КОД УСЛУГИ, (score, DataFrame index)), ...]`
+
+- `hybrid_retrieve_v_1.6.ipynb`
+
+    - при `pooling=True` возвращаются `[(DataFrame index, score, КОД УСЛУГИ), ...]`
+    - при `pooling=False` возвращаются `[(DataFrame index, score, КОД УСЛУГИ), ...]`
